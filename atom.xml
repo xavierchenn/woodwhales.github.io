@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>woodwhale&#39;s blog</title>
+  
+  <subtitle>技术改变生活</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://woodwhales.github.io/"/>
+  <updated>2018-12-22T15:22:47.809Z</updated>
+  <id>https://woodwhales.github.io/</id>
+  
+  <author>
+    <name>木鲸鱼</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>优秀博客集锦</title>
+    <link href="https://woodwhales.github.io/2018/12/22/002/"/>
+    <id>https://woodwhales.github.io/2018/12/22/002/</id>
+    <published>2018-12-21T19:15:47.000Z</published>
+    <updated>2018-12-22T15:22:47.809Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;不止于优秀&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="干货推荐" scheme="https://woodwhales.github.io/categories/%E5%B9%B2%E8%B4%A7%E6%8E%A8%E8%8D%90/"/>
+    
+    
+      <category term="博客" scheme="https://woodwhales.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>并发编程的艺术 | 学习笔记（二）</title>
+    <link href="https://woodwhales.github.io/2018/12/20/004/"/>
+    <id>https://woodwhales.github.io/2018/12/20/004/</id>
+    <published>2018-12-20T10:03:00.000Z</published>
+    <updated>2018-12-22T14:27:29.595Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;并发机制的底层实现原理：volatitle 关键字和锁的机制。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://woodwhales.github.io/categories/Java/"/>
+    
+    
+      <category term="并发编程" scheme="https://woodwhales.github.io/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>并发编程的艺术 | 学习笔记（一）</title>
+    <link href="https://woodwhales.github.io/2018/12/18/003/"/>
+    <id>https://woodwhales.github.io/2018/12/18/003/</id>
+    <published>2018-12-17T16:00:00.000Z</published>
+    <updated>2018-12-22T08:46:33.863Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;并发编程，并非万万能。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Java" scheme="https://woodwhales.github.io/categories/Java/"/>
+    
+    
+      <category term="并发编程" scheme="https://woodwhales.github.io/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>相遇即是缘分</title>
+    <link href="https://woodwhales.github.io/2016/02/29/001/"/>
+    <id>https://woodwhales.github.io/2016/02/29/001/</id>
+    <published>2016-02-29T06:14:56.000Z</published>
+    <updated>2018-12-21T14:28:33.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;茫茫人海，遇见你是我的缘。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;真是巧了！&lt;/p&gt;
+&lt;p&gt;2016 年 02 月 21 日，注册微信公众号。&lt;/p&gt;
+&lt;p&gt;2018 
+      
+    
+    </summary>
+    
+      <category term="随笔杂谈" scheme="https://woodwhales.github.io/categories/%E9%9A%8F%E7%AC%94%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="编程随想" scheme="https://woodwhales.github.io/tags/%E7%BC%96%E7%A8%8B%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+</feed>
