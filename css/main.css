@@ -1930,7 +1930,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #987eff;
+  background: #8b74a1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3082,7 +3082,7 @@ pre .deletion {
   color: #fff;
 }
 .links-of-author {
-  margin-top: 0px;
+  margin-top: 15px;
 }
 .links-of-blogroll-title {
   margin-bottom: 10px;
@@ -3352,8 +3352,18 @@ span#inline-toc {
   margin: 2px 5px 2px 0px;
   line-height: 1.5;
 }
+.out-img-topic {
+  display: block;
+  margin: 14px auto;
+  overflow: hidden;
+}
 img.img-topic {
-  width: 100%;
+  display: block;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  padding: 0;
+  float: right;
+  clear: right;
 }
 .post-sticky-flag {
   font-size: inherit;
