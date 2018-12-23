@@ -3,12 +3,12 @@
 
 
 
-<html class="theme-next mist" lang="zh-Hans">
+<html class="theme-next muse" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="theme-color" content="#222">
+<meta name="theme-color" content="#fff">
 
 
 
@@ -43,6 +43,44 @@
 
 
 
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
 
 
 
@@ -60,7 +98,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/uploads/favicon-16x16.ico?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#fff">
 
 
 
@@ -79,18 +117,18 @@
 
 
 
-<meta name="description" content="不止于优秀">
+<meta name="description" content="不止于优秀。">
 <meta name="keywords" content="博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="优秀博客集锦">
 <meta property="og:url" content="https://woodwhales.github.io/2018/12/22/002/index.html">
 <meta property="og:site_name" content="woodwhale&#39;s blog">
-<meta property="og:description" content="不止于优秀">
+<meta property="og:description" content="不止于优秀。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-22T17:49:34.689Z">
+<meta property="og:updated_time" content="2018-12-23T13:13:38.980Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="优秀博客集锦">
-<meta name="twitter:description" content="不止于优秀">
+<meta name="twitter:description" content="不止于优秀。">
 
 
 
@@ -98,9 +136,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Muse',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -139,6 +177,10 @@
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+	<div class="bg_content">
+		<canvas id="canvas"></canvas>
+	</div>
 
   
   
@@ -191,12 +233,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
-            标签
+            归档
           </a>
         </li>
       
@@ -211,12 +253,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
-            归档
+            标签
           </a>
         </li>
       
@@ -224,7 +266,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-futbol-o"></i> <br>
             
             关于
           </a>
@@ -340,7 +382,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-12-23T01:49:34+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-12-23T21:13:38+08:00">
                 2018-12-23
               </time>
             
@@ -404,6 +446,8 @@
             <div class="post-wordcount">
               
                 
+                  <span class="post-meta-divider">|</span>
+                
                 <span class="post-meta-item-icon">
                   <i class="fa fa-pencil-square-o"></i>
                 </span>
@@ -411,28 +455,20 @@
                   <span class="post-meta-item-text">全文总计&#58;</span>
                 
                 <span title="全文总计">
-                  118 字
+                  116 字
                 </span>
               
 
               
-                <span class="post-meta-divider">|</span>
-              
 
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1 分钟
-                </span>
               
             </div>
           
 
+          
+              <div class="post-description">
+                  不止于优秀。
+              </div>
           
 
         </div>
@@ -448,10 +484,7 @@
       
 
       
-        <blockquote class="blockquote-center"><p>不止于优秀</p>
-</blockquote>
-<a id="more"></a>
-<h4 id="一、超个性化的-Hexo-博客"><a href="#一、超个性化的-Hexo-博客" class="headerlink" title="一、超个性化的 Hexo 博客"></a>一、超个性化的 Hexo 博客</h4><blockquote>
+        <h4 id="一、超个性化的-Hexo-博客"><a href="#一、超个性化的-Hexo-博客" class="headerlink" title="一、超个性化的 Hexo 博客"></a>一、超个性化的 Hexo 博客</h4><blockquote>
 <p>内含一些搭建博客教程，值得学习。</p>
 </blockquote>
 <ul>
@@ -482,6 +515,7 @@
 </blockquote>
 <ul>
 <li><a href="https://www.itfanr.cc/" target="_blank" rel="noopener">IT范儿</a></li>
+<li><a href="http://www.mdslq.cn" target="_blank" rel="noopener">DongSheng’s Blog</a></li>
 </ul>
 <h4 id="四、信息资源"><a href="#四、信息资源" class="headerlink" title="四、信息资源"></a>四、信息资源</h4><ul>
 <li><a href="https://fadeer.github.io/" target="_blank" rel="noopener">Fadeer的日志</a></li>
@@ -520,7 +554,7 @@
   <p><span>本文标题:</span><a href="/2018/12/22/002/">优秀博客集锦</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 木鲸鱼 的个人博客">木鲸鱼</a></p>
   <p><span>发布时间:</span>2018年12月22日 - 03:12</p>
-  <p><span>最后更新:</span>2018年12月23日 - 01:12</p>
+  <p><span>最后更新:</span>2018年12月23日 - 21:12</p>
   <p><span>原始链接:</span><a href="/2018/12/22/002/" title="优秀博客集锦">https://woodwhales.github.io/2018/12/22/002/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://woodwhales.github.io/2018/12/22/002/" aria-label="复制成功！"></i></span>
   </p>
@@ -714,57 +748,20 @@
 
           
           
-
-          <!---->
-        </div>
-      </section>
-
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、超个性化的-Hexo-博客"><span class="nav-number">1.</span> <span class="nav-text">一、超个性化的 Hexo 博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、Hexo-主题及插件"><span class="nav-number">2.</span> <span class="nav-text">二、Hexo 主题及插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、Java-博客"><span class="nav-number">3.</span> <span class="nav-text">三、Java 博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、其他技术博客"><span class="nav-number">4.</span> <span class="nav-text">三、其他技术博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四、信息资源"><span class="nav-number">5.</span> <span class="nav-text">四、信息资源</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
-
-      
-        <div class="back-to-top">
-          <i class="fa fa-arrow-up"></i>
-          
-            <span id="scrollpercent"><span>0</span>%</span>
-          
-        </div>
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love" id="heart">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">木鲸鱼</span>
-
-  
-	<div id="days"></div>
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                神奇的链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.bilibili.com/video/av6211226/" title="尼古拉·特斯拉：发明了现代世界的人" rel="external nofollow" target="_blank">尼古拉·特斯拉：发明了现代世界的人</a>
+                  </li>
+                
+              </ul>
+			  
+			  <div id="days"></div>
 <script>
 	function show_date_time(){
 	window.setTimeout("show_date_time()", 1000);
@@ -790,8 +787,74 @@
 	}
 	show_date_time();
 </script>
-  
-  
+            </div>
+          
+
+          <!--<div id="days"></div>
+<script>
+	function show_date_time(){
+	window.setTimeout("show_date_time()", 1000);
+	BirthDay=new Date("12/21/2018 00:00:00");
+	today=new Date();
+	timeold=(today.getTime()-BirthDay.getTime());
+	sectimeold=timeold/1000
+	secondsold=Math.floor(sectimeold);
+	msPerDay=24*60*60*1000
+	e_daysold=timeold/msPerDay
+	daysold=Math.floor(e_daysold);
+	e_hrsold=(e_daysold-daysold)*24;
+	hrsold=setzero(Math.floor(e_hrsold));
+	e_minsold=(e_hrsold-hrsold)*60;
+	minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+	seconds=setzero(Math.floor((e_minsold-minsold)*60));
+	document.getElementById('days').innerHTML="已运行 "+daysold+" 天 "+hrsold+" 小时 "+minsold+" 分 "+seconds+" 秒";
+	}
+	function setzero(i){
+	if (i<10)
+	{i="0" + i};
+	return i;
+	}
+	show_date_time();
+</script>-->
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、超个性化的-Hexo-博客"><span class="nav-number">1.</span> <span class="nav-text">一、超个性化的 Hexo 博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、Hexo-主题及插件"><span class="nav-number">2.</span> <span class="nav-text">二、Hexo 主题及插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、Java-博客"><span class="nav-number">3.</span> <span class="nav-text">三、Java 博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、其他技术博客"><span class="nav-number">4.</span> <span class="nav-text">三、其他技术博客</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四、信息资源"><span class="nav-number">5.</span> <span class="nav-text">四、信息资源</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="heart">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">木鲸鱼</span>
   
 </div>
 
@@ -835,6 +898,13 @@
       </div>
     </footer>
 
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
     
 
     
@@ -1431,5 +1501,14 @@
   <!-- 代码块复制功能 -->
 <script type="text/javascript" src="/js/src/clipboard.min.js"></script>  
 <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
+  
+  <!-- 音乐 -->
+  <link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>
+
+  <!-- 动态背景 -->
+  <script type="text/javascript" src="/js/src/dynamic_bg.js"></script>
 </body>
 </html>
