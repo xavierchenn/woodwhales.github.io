@@ -1935,7 +1935,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #581d7c;
+  background: #a48a7e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2819,6 +2819,16 @@ embed {
   text-decoration: none;
 }
 .post-body blockquote p a:hover {
+  color: #ab47bc;
+  border-bottom: none;
+  text-decoration: underline;
+}
+.post-body p a {
+  color: #42a5f5;
+  border-bottom: none;
+  text-decoration: none;
+}
+.post-body p a:hover {
   color: #ab47bc;
   border-bottom: none;
   text-decoration: underline;
