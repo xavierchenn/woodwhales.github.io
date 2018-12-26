@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://woodwhales.github.io/"/>
-  <updated>2018-12-25T01:36:58.753Z</updated>
+  <updated>2018-12-26T04:29:57.389Z</updated>
   <id>https://woodwhales.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://woodwhales.github.io/2018/12/22/002/"/>
     <id>https://woodwhales.github.io/2018/12/22/002/</id>
     <published>2018-12-21T19:15:47.000Z</published>
-    <updated>2018-12-25T01:36:58.753Z</updated>
+    <updated>2018-12-26T04:29:57.389Z</updated>
     
     <summary type="html">
     
@@ -41,7 +41,7 @@
     <link href="https://woodwhales.github.io/2018/12/20/004/"/>
     <id>https://woodwhales.github.io/2018/12/20/004/</id>
     <published>2018-12-20T10:03:00.000Z</published>
-    <updated>2018-12-25T01:38:11.492Z</updated>
+    <updated>2018-12-26T04:28:41.482Z</updated>
     
     <summary type="html">
     
@@ -61,7 +61,7 @@
     <link href="https://woodwhales.github.io/2018/12/18/003/"/>
     <id>https://woodwhales.github.io/2018/12/18/003/</id>
     <published>2018-12-17T16:00:00.000Z</published>
-    <updated>2018-12-25T01:38:18.693Z</updated>
+    <updated>2018-12-26T04:28:52.058Z</updated>
     
     <summary type="html">
     
@@ -81,7 +81,7 @@
     <link href="https://woodwhales.github.io/2018/12/17/005/"/>
     <id>https://woodwhales.github.io/2018/12/17/005/</id>
     <published>2018-12-17T10:03:00.000Z</published>
-    <updated>2018-12-25T01:48:08.268Z</updated>
+    <updated>2018-12-26T04:28:28.185Z</updated>
     
     <summary type="html">
     
@@ -93,6 +93,26 @@
     
     
       <category term="定时任务" scheme="https://woodwhales.github.io/tags/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Springboot 瘦身打包</title>
+    <link href="https://woodwhales.github.io/2018/12/16/006/"/>
+    <id>https://woodwhales.github.io/2018/12/16/006/</id>
+    <published>2018-12-16T10:03:00.000Z</published>
+    <updated>2018-12-26T04:28:08.377Z</updated>
+    
+    <summary type="html">
+    
+      分离 lib 依赖和资源文件
+    
+    </summary>
+    
+      <category term="Java" scheme="https://woodwhales.github.io/categories/Java/"/>
+    
+    
+      <category term="Springboot" scheme="https://woodwhales.github.io/tags/Springboot/"/>
     
   </entry>
   
