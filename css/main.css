@@ -1749,6 +1749,11 @@ pre .javascript .function {
   color: #808080;
   cursor: pointer;
 }
+.updated {
+  margin-top: 50px;
+  text-align: center;
+  user-select: none;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1930,7 +1935,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe4a4;
+  background: #477cf5;
 }
 .links-of-blogroll {
   font-size: 13px;
