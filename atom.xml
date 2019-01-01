@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://woodwhales.github.io/"/>
-  <updated>2018-12-29T12:25:04.092Z</updated>
+  <updated>2018-12-31T16:00:00.000Z</updated>
   <id>https://woodwhales.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>redis 学习笔记 | 安装与启动</title>
+    <link href="https://woodwhales.github.io/2019/01/01/008/"/>
+    <id>https://woodwhales.github.io/2019/01/01/008/</id>
+    <published>2019-01-01T10:03:00.000Z</published>
+    <updated>2018-12-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      分布式缓存数据库的典范
+    
+    </summary>
+    
+      <category term="Java" scheme="https://woodwhales.github.io/categories/Java/"/>
+    
+    
+      <category term="redis" scheme="https://woodwhales.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
     <title>优秀博客集锦</title>
     <link href="https://woodwhales.github.io/2018/12/22/002/"/>
     <id>https://woodwhales.github.io/2018/12/22/002/</id>
     <published>2018-12-21T19:15:47.000Z</published>
-    <updated>2018-12-29T12:25:04.092Z</updated>
+    <updated>2018-12-29T13:15:08.681Z</updated>
     
     <summary type="html">
     
