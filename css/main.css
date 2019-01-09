@@ -1935,7 +1935,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #3ecd4e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3093,6 +3093,9 @@ pre .deletion {
   border-top-color: #26a69a;
   box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.15);
 }
+.posts-expand .post-body .fancybox img {
+  margin: 0 auto 5px;
+}
 .posts-expand .post-meta .post-description {
   font-style: italic;
   font-size: 14px;
@@ -3132,7 +3135,7 @@ code.description {
   background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
 }
 .post-button {
-  margin-top: 24px;
+  margin-top: 5px;
 }
 .posts-expand .post-eof {
   margin: 0px;
@@ -3143,9 +3146,10 @@ code.description {
   margin: 0px;
 }
 .pagination .page-number.current {
+  color: #ffc107;
   border-radius: 100%;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  background-color: rgba(255,255,255,0.35);
+  box-shadow: 0px 0px 10px 0px rgba(0,150,136,0.25);
+  background-color: rgba(0,150,136,0.75);
 }
 .pagination .prev,
 .pagination .next,
