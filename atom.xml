@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://woodwhales.github.io/"/>
-  <updated>2019-01-13T07:10:55.836Z</updated>
+  <updated>2019-01-13T17:37:37.972Z</updated>
   <id>https://woodwhales.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PlantUML 语法之时序图</title>
+    <link href="https://woodwhales.github.io/2019/01/13/017/"/>
+    <id>https://woodwhales.github.io/2019/01/13/017/</id>
+    <published>2019-01-13T14:58:00.000Z</published>
+    <updated>2019-01-13T17:37:37.972Z</updated>
+    
+    <summary type="html">
+    
+      快速高效生成时序图
+    
+    </summary>
+    
+      <category term="UML" scheme="https://woodwhales.github.io/categories/UML/"/>
+    
+    
+      <category term="PlantUML" scheme="https://woodwhales.github.io/tags/PlantUML/"/>
+    
+  </entry>
   
   <entry>
     <title>Ndoe.js安装及环境配置(for windows)</title>
@@ -41,7 +61,7 @@
     <link href="https://woodwhales.github.io/2019/01/09/009/"/>
     <id>https://woodwhales.github.io/2019/01/09/009/</id>
     <published>2019-01-09T02:30:00.000Z</published>
-    <updated>2019-01-13T05:49:55.844Z</updated>
+    <updated>2019-01-13T15:34:20.950Z</updated>
     
     <summary type="html">
     
@@ -81,7 +101,7 @@
     <link href="https://woodwhales.github.io/2018/12/22/002/"/>
     <id>https://woodwhales.github.io/2018/12/22/002/</id>
     <published>2018-12-21T19:15:47.000Z</published>
-    <updated>2019-01-12T06:27:04.662Z</updated>
+    <updated>2019-01-13T14:22:46.949Z</updated>
     
     <summary type="html">
     
@@ -317,6 +337,46 @@
     
     
       <category term="基础原理" scheme="https://woodwhales.github.io/tags/%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人生苦短，转行程序员要趁早(中)</title>
+    <link href="https://woodwhales.github.io/2018/08/13/019/"/>
+    <id>https://woodwhales.github.io/2018/08/13/019/</id>
+    <published>2018-08-13T14:58:00.000Z</published>
+    <updated>2019-01-13T16:03:02.383Z</updated>
+    
+    <summary type="html">
+    
+      人生苦短，程序员转行也得趁早。
+    
+    </summary>
+    
+      <category term="随笔杂谈" scheme="https://woodwhales.github.io/categories/%E9%9A%8F%E7%AC%94%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="转行" scheme="https://woodwhales.github.io/tags/%E8%BD%AC%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人生苦短，转行程序员要趁早(上)</title>
+    <link href="https://woodwhales.github.io/2018/06/17/018/"/>
+    <id>https://woodwhales.github.io/2018/06/17/018/</id>
+    <published>2018-06-17T14:58:00.000Z</published>
+    <updated>2019-01-13T15:47:50.204Z</updated>
+    
+    <summary type="html">
+    
+      把生命浪费在美好的事物上
+    
+    </summary>
+    
+      <category term="随笔杂谈" scheme="https://woodwhales.github.io/categories/%E9%9A%8F%E7%AC%94%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="转行" scheme="https://woodwhales.github.io/tags/%E8%BD%AC%E8%A1%8C/"/>
     
   </entry>
   
