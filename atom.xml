@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://woodwhales.github.io/"/>
-  <updated>2019-01-19T17:26:56.796Z</updated>
+  <updated>2019-01-22T14:28:53.135Z</updated>
   <id>https://woodwhales.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>领域驱动设计中国峰会2018</title>
+    <link href="https://woodwhales.github.io/2019/01/22/020/"/>
+    <id>https://woodwhales.github.io/2019/01/22/020/</id>
+    <published>2019-01-22T14:58:00.000Z</published>
+    <updated>2019-01-22T14:28:53.135Z</updated>
+    
+    <summary type="html">
+    
+      领域驱动设计中国峰会2018
+    
+    </summary>
+    
+      <category term="软件架构" scheme="https://woodwhales.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/"/>
+    
+    
+      <category term="DDD" scheme="https://woodwhales.github.io/tags/DDD/"/>
+    
+  </entry>
   
   <entry>
     <title>PlantUML 语法之时序图</title>
