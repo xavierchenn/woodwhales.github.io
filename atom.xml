@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://woodwhales.github.io/"/>
-  <updated>2019-01-23T13:09:49.507Z</updated>
+  <updated>2019-01-27T07:41:40.820Z</updated>
   <id>https://woodwhales.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Restful API 最佳实践</title>
+    <link href="https://woodwhales.github.io/2019/01/27/021/"/>
+    <id>https://woodwhales.github.io/2019/01/27/021/</id>
+    <published>2019-01-27T05:44:00.000Z</published>
+    <updated>2019-01-27T07:41:40.820Z</updated>
+    
+    <summary type="html">
+    
+      前后端常用的接口规范
+    
+    </summary>
+    
+      <category term="软件架构" scheme="https://woodwhales.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/"/>
+    
+    
+      <category term="Restful" scheme="https://woodwhales.github.io/tags/Restful/"/>
+    
+  </entry>
   
   <entry>
     <title>领域驱动设计中国峰会2018</title>
@@ -121,7 +141,7 @@
     <link href="https://woodwhales.github.io/2018/12/22/002/"/>
     <id>https://woodwhales.github.io/2018/12/22/002/</id>
     <published>2018-12-21T19:15:47.000Z</published>
-    <updated>2019-01-27T05:14:13.957Z</updated>
+    <updated>2019-01-27T06:49:22.867Z</updated>
     
     <summary type="html">
     
@@ -397,26 +417,6 @@
     
     
       <category term="转行" scheme="https://woodwhales.github.io/tags/%E8%BD%AC%E8%A1%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>相遇即是缘分</title>
-    <link href="https://woodwhales.github.io/2016/02/29/001/"/>
-    <id>https://woodwhales.github.io/2016/02/29/001/</id>
-    <published>2016-02-29T06:14:56.000Z</published>
-    <updated>2018-12-21T14:28:33.000Z</updated>
-    
-    <summary type="html">
-    
-      茫茫人海，遇见你是我的缘。
-    
-    </summary>
-    
-      <category term="随笔杂谈" scheme="https://woodwhales.github.io/categories/%E9%9A%8F%E7%AC%94%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="编程随想" scheme="https://woodwhales.github.io/tags/%E7%BC%96%E7%A8%8B%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
