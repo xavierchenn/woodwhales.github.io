@@ -126,7 +126,7 @@
 <meta property="og:description" content="如题">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://woodwhales.github.io/2018/12/17/005/2018/12/17/005/face.png">
-<meta property="og:updated_time" content="2019-01-11T13:13:32.100Z">
+<meta property="og:updated_time" content="2019-04-09T13:46:59.197Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="定时任务全解">
 <meta name="twitter:description" content="如题">
@@ -476,7 +476,7 @@
           
           
             <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox" href="/2018/12/17/005/face.png" rel="gallery_cju4ak74c002ah8vgyep6hy1t" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url">
+              <a class="post-gallery-img fancybox" href="/2018/12/17/005/face.png" rel="gallery_cjuex7w2r002kh4vggjdty8ej" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="/2018/12/17/005/face.png" itemprop="contentUrl">
               </a>
             
@@ -505,7 +505,7 @@
 <figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Scheduler2Task</span> </span>{</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> SimpleDateFormat dateFormat = <span class="keyword">new</span> SimpleDateFormat(<span class="string">&quot;HH:mm:ss&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Scheduled</span>(fixedRate = <span class="number">6000</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">reportCurrentTime</span><span class="params">()</span> </span>{</span><br><span class="line">        System.out.println(<span class="string">&quot;&#x73B0;&#x5728;&#x65F6;&#x95F4;&#xFF1A;&quot;</span> + dateFormat.format(<span class="keyword">new</span> Date()));</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 <p>&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;3&#xFF1A;&#x6BCF;&#x8FC7;&#x4E0A;&#x4E00;&#x4E2A;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;&#x6267;&#x884C;&#x5B8C;&#x6BD5;&#x4E4B;&#x540E;&#x7684; 6 &#x79D2;&#x6267;&#x884C;</p>
 <p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong>&#x4E0A;&#x4E00;&#x6B21;&#x6267;&#x884C;&#x5B8C;&#x6BD5;&#x65F6;&#x95F4;&#x70B9;&#x4E4B;&#x540E; 6 &#x79D2;&#x518D;&#x6267;&#x884C;&#xFF0C;&#x7B49;&#x5F85;&#x4E0A;&#x4E00;&#x6B21;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;&#x6267;&#x884C;&#x5B8C;&#x6BD5;&#x4E4B;&#x540E;&#x518D;&#x95F4;&#x9694; 6 &#x79D2;&#x6267;&#x884C;&#x4E0B;&#x4E00;&#x4E2A;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;&#x3002;</p>
-<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Scheduler3Task</span> </span>{</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> SimpleDateFormat dateFormat = <span class="keyword">new</span> SimpleDateFormat(<span class="string">&quot;yyyy-MM-dd HH:mm:ss&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Scheduled</span>(fixedRate = <span class="number">6000</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">reportCurrentTime</span><span class="params">()</span> </span>{</span><br><span class="line">        System.out.println(<span class="string">&quot;&#x73B0;&#x5728;&#x65F6;&#x95F4;&#xFF1A;&quot;</span> + dateFormat.format(<span class="keyword">new</span> Date()));</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Scheduler3Task</span> </span>{</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> SimpleDateFormat dateFormat = <span class="keyword">new</span> SimpleDateFormat(<span class="string">&quot;yyyy-MM-dd HH:mm:ss&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Scheduled</span>(fixedDelay = <span class="number">6000</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">reportCurrentTime</span><span class="params">()</span> </span>{</span><br><span class="line">        System.out.println(<span class="string">&quot;&#x73B0;&#x5728;&#x65F6;&#x95F4;&#xFF1A;&quot;</span> + dateFormat.format(<span class="keyword">new</span> Date()));</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 <h6 id="1-1-4-&#x53C2;&#x6570;&#x8BF4;&#x660E;"><a href="#1-1-4-&#x53C2;&#x6570;&#x8BF4;&#x660E;" class="headerlink" title="1.1.4 &#x53C2;&#x6570;&#x8BF4;&#x660E;"></a>1.1.4 &#x53C2;&#x6570;&#x8BF4;&#x660E;</h6><p><code>@Scheduled</code> &#x53C2;&#x6570;&#x53EF;&#x4EE5;&#x63A5;&#x53D7;&#x4E24;&#x79CD;&#x5B9A;&#x65F6;&#x7684;&#x8BBE;&#x7F6E;&#x6BCF;&#x9694; 6 &#x79D2;&#x6267;&#x884C;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;&#xFF1A;</p>
 <p>&#x4E00;&#x79CD;&#x662F;&#x6211;&#x4EEC;&#x5E38;&#x7528;&#x7684;<code>cron=&quot;*/6 * * * * ?&quot;</code>&#xFF0C;&#x53E6;&#x4E00;&#x79CD;&#x662F; <code>fixedRate = 6000</code></p>
 <p><strong>fixedRate &#x8BF4;&#x660E;</strong></p>
@@ -617,8 +617,8 @@
 			<g fill="#fff" text-anchor="middle" font-family="Menlo,monospace" font-size="110">
 				<text x="285" y="150" fill="#010101" fill-opacity=".3" textlength="450" transform="scale(.1)">updated</text>
 				<text x="285" y="140" textlength="450" transform="scale(.1)">updated</text>
-				<text x="915" y="150" fill="#010101" fill-opacity=".3" textlength="650" transform="scale(.1)">2019-01-11</text>
-				<text x="915" y="140" textlength="650" transform="scale(.1)">2019-01-11</text>
+				<text x="915" y="150" fill="#010101" fill-opacity=".3" textlength="650" transform="scale(.1)">2019-04-09</text>
+				<text x="915" y="140" textlength="650" transform="scale(.1)">2019-04-09</text>
 			</g>
 			
 		</svg>
@@ -780,7 +780,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">29</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -791,7 +791,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -802,7 +802,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
